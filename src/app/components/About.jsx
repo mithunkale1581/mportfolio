@@ -22,7 +22,7 @@ const About = () => {
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                         {
                             infoList.map(({ icon, iconDark, title, description }, index) => (
-                                <li className='border-[0.5px] border-gray-400 rounded-xl p-6 coursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]'
+                                <li className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]'
                                     key={index}>
                                     <Image src={icon} alt={title} className='w-7 mt-3' />
                                     <h3 className='my-4 font-semibold text-gray-700'>{title}</h3>
@@ -35,8 +35,8 @@ const About = () => {
                     <ul className='flex items-center gap-3 sm:gap-5'>
                         {toolsData.map((tool, index) => (
                             <li className='flex items-center justify-center w-12 
-                            sm:w-14 aspect-square border border-gray-400 rounded-lg curssor-pointer hover:-translate-y-1 duration-500' 
-                            key={index}>
+    sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500'
+                                key={index}>
                                 <Image src={tool} alt='Tool' className='w-5 sm:w-7' />
                             </li>
                         ))}
