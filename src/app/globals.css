@@ -1,1 +1,4 @@
 @import "tailwindcss";
+div.contact-bg {
+  background-color: rgb(244, 244, 236) !important;
+}
