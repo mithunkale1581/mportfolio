@@ -83,7 +83,7 @@ export const workData = [
     bgImage: "/work-1.png",
   },
   {
-    title: "Geo based app",
+    title: "Mobile app",
     description: "Mobile App",
     bgImage: "/work-2.png",
   },
@@ -104,7 +104,7 @@ export const serviceData = [
     icon: assets.web_icon,
     title: "Web design",
     description: "Web development is the process of building, programming...",
-    link: "",
+    link: "https://e-commercr-project-1.onrender.com/",
   },
   {
     icon: assets.mobile_icon,
@@ -133,19 +133,20 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description:
+      "HTML5 CSS3 JavaScript TypeScript React.Js Redux jQuery Bootstrap Tailwind CSS Next.Js",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "M.Sc in Computer Science",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "Built more than 12 projects",
   },
 ];
 

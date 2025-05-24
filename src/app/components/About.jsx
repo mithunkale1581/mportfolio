@@ -18,14 +18,7 @@ const About = () => {
         </div>
         <div className="flex-1">
           <p className="mb-10 max-w-2xl font-Ovo">
-            I am a passionate and dedicated software engineer with a strong
-            foundation in web development. I have a keen interest in creating
-            innovative solutions that enhance user experiences and drive
-            business success. My expertise lies in front-end development, where
-            I excel in crafting responsive and visually appealing interfaces
-            using modern technologies. I am always eager to learn and adapt to
-            new challenges, and I thrive in collaborative environments where I
-            can contribute my skills and knowledge to achieve common goals.
+            I am an experienced Front-End Developer with 6+ years in IT and 4+ years specializing in UI development, currently working at Tata Consultancy Services (TCS). I excel at building high-performance, scalable web applications using React.js, Redux, and modern front-end technologies, with a proven track record of enhancing user engagement by 40%, reducing bounce rates by 97%, and maintaining a 98% client satisfaction rate. My expertise spans responsive design, state management optimization, and performance tuning—leveraging JavaScript, TypeScript, HTML5, CSS3, and tools like Jest, Cypress, and Tailwind CSS to deliver seamless user experiences. A collaborative Agile team player, I thrive in dynamic environments where innovation and problem-solving drive success. I’m passionate about continuous learning and contributing to impactful, user-centric solutions.
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
